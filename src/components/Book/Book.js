@@ -62,46 +62,63 @@ class Book extends React.Component {
           ref={this.book}
           style={{ background: "white" }}
         >
-          <PageCover>BOOK TITLE</PageCover>
+          <PageCover>
+            NEWTON'S LAWS OF MOTION
+            <center><img src={require('./phy_back_cover_nlm.jpg')} id="cover"alt="cover"/></center>
+
+          </PageCover>
           <Page number={1}>
-            quibusdam commodi. Culpa sunt earum inventore? Placeat inventore
-            maiores perspiciatis amet saepe ipsam fugit mollitia magni iure
-            assumenda? Quaerat, pariatur cupiditate, mollitia fugiat maxime,
-            laboriosam vitae facilis quo inventore assumenda soluta alias?
-            Molestiae tenetur illum porro dicta similique alias dolore quaerat
-            ut officia neque voluptatem consectetur ex, magnam ipsam minima
-            libero repudiandae, est laudantium facilis. Perspiciatis, sequi
-            illo. Nemo qui, aliquam impedit blanditiis voluptate unde quisquam
-            consequuntur? Soluta quos error veniam ea nam reiciendis blanditiis
-            neque ullam vel dignissimos officia enim nesciunt quam reprehenderit
-            tempore magni exercitationem cupiditate distinctio, modi similique
-            maxime asperiores rem nisi? Voluptatem ea distinctio pariatur, harum
-            consequatur iure autem vitae eos ullam commodi consectetur
-            perferendis temporibus vel, dolorem corporis fugit! Maiores officia
-            veritatis, minima culpa laboriosam consequuntur, voluptate dicta
-            recusandae, porro provident voluptatum ullam modi nam ipsa. Sed quae
-            praesentium cupiditate modi fugiat sit quam, tempore ut excepturi
-            reprehenderit rem, voluptates iste officiis est illo inventore sequi
-            dignissimos explicabo fugit aperiam. Perferendis aliquam corrupti
-            excepturi sunt exercitationem et numquam cupiditate autem, quibusdam
-            earum fugiat magni nostrum ipsam ea magnam explicabo ipsa eveniet,
-            quasi at amet? Ut consectetur minima voluptas tempora dolorum quos
-            cumque, veritatis beatae magnam, quia id molestias? Commodi
-            accusantium eos totam soluta, itaque officia, architecto ratione
-            ipsa quidem nihil a porro neque distinctio amet molestias doloribus
-            rem accusamus cumque voluptatibus consequuntur deserunt non eius
-            quas dignissimos? Debitis aliquid inventore nostrum asperiores
-            provident obcaecati vel hic recusandae architecto dolorem ullam
-            aspernatur commodi deleniti aut, adipisci, placeat minus soluta
-            omnis. Enim quae porro, deleniti, eligendi magnam expedita nemo
-            pariatur inventore soluta ab id quos laudantium quo quibusdam iusto
-            illum quis recusandae adipisci maiores. Impedit minus vitae
-            dignissimos eveniet corrupti, soluta nemo expedita est quod amet,
-            consectetur quos corporis saepe maxime nesciunt, ut odit non
-            architecto quia hic eaque! Maxime provident odit iusto consequatur
-            perferendis optio laboriosam.
+            <div className="style3">Newton's Law of Motion</div>
+            <br></br>
+            <div class="style2"> Foundations of Newtonian Mechanics: </div>
+            <b>(i)</b> Mass
+            <br></br>
+            <b>(ii)</b> Motion
+            <br></br>
+            <b>(iii)</b> Force
+            <br></br>
+            <div className="style2">
+              {" "}
+              Excerpts from Newton's Principle (Book 1 )
+            </div>{" "}
+            <br></br>
+            <div className="style1">(A) Mass :</div>The quantity of matter is the
+            measure of the same arising from it's density and bulk conjointly.{" "}
+            <br></br>
+            <br></br>
+            <div className="style1">(B) Motion :</div>
+            The quantity of motion is the measure of the same arising from the
+            velocity and quantity of matter conjointly
+            <br></br>
+            <br></br>
+            <div className="style1">(C) Force :</div>An impressed force is an
+            action exerted upon a body, in order to change its state, either of
+            rest, or of moving uniformly forward in a right line.
+            <br></br>These definitions gave rise to the famous three laws: known
+            as Newton's laws of motion.
+            <br></br>
+            <br></br>
+            <center><img src={require('./What-is-Force-and-Types-of-Forces.jpg')} alt="Force" width="300px"/></center>
           </Page>
-          <Page number={2}>Lorem ipsum...</Page>
+          <Page number={2}>
+            <div class="style2">Newton's laws of motion</div>
+            <br></br>
+            <br></br>
+            <div className="style1">First Law :</div>Every body continues in
+            it's state of rest or of uniform rectilinear motion except if it is
+            compelled by forces acting on it to change that state.
+            <br></br>
+            <br></br>
+            <div className="style1">Second Law :</div>The change of motion is
+            proportional to the applied force and takes place in the direction
+            of the straight line along which that force acts.
+            <br></br>
+            <br></br>
+            <div className="style1">Third Law :</div>To every action there is
+            always an equal and contrary reaction; or the mutual actions of any
+            two bodies are always equal and oppositely directed along the same
+            straight line.
+          </Page>
           <PageCover>THE END</PageCover>
         </HTMLFlipBook>
 
